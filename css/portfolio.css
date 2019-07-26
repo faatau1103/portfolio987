@@ -1,0 +1,70 @@
+
+body, h1, h2, h3{
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+
+.bg-1{
+    background-color: white;
+    color: white;
+}
+
+.bg-2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.thumbnail{
+    border: 3px;
+    transition-property: width;
+}
+
+.thumbnail:hover{
+    box-shadow: 3px 3px 3px 3px;
+    transition-property: width;
+}
+
+.container{
+    margin-top: 20px;
+}
+.jumbotron{
+    background-image: url(../image/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-3{
+    margin-top: 10%;
+
+}
+/* .dl{
+    /* background-color: gray; */
+ */
+
+.mySlides {display: none;}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+.w3-padding-large {
+    padding: 87px 24px !important;
+}
+.w3-opacity, .w3-hover-opacity:hover {
+    opacity: 0.60;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+.w3-center {
+    text-align: center !important;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
